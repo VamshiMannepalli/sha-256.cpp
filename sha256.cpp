@@ -2,7 +2,9 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <cstdint> 
 using namespace std;
+
 
 const uint32_t K[] = {
     0x428a2f98, 0x71374491, 0xb5c0fbcf, 0xe9b5dba5,
@@ -142,3 +144,13 @@ int main()
     cout << endl;
     return 0;
 }
+  
+
+
+
+ 
+      
+     
+
+
+ 
